@@ -1,0 +1,103 @@
+*{
+padding: 0;
+Margin: 0;
+}
+
+Body{
+Background: #000000;      /* black */
+Font-family: “Architects Daughter”;
+Font-size:  24px;
+}
+
+.main-container{
+Width: 95%;3
+Margin: auto;
+}
+
+/*.container1{
+Margin-top:  20px;
+Margin-left: 5%;
+Margin-right: 5%;
+}*/
+
+.container2{
+Display: flex;
+Justify-content: flex-start;
+Flex-wrap: wrap;
+Margin-top:  20px;
+Margin-left: 5%;
+}
+
+.container3{
+display: none;
+position: absolute;
+Top: 26%;
+Left: 40%;
+}
+
+textarea{
+Box-shadow: 10px  10px  24px  0px rgba(0,0,0,0.75);
+Outline: none;
+Border: none;
+Width: 275px;
+Height: 275px;
+Padding: 40px  25px  25px  25px;
+}
+
+svg{
+Color: gray;
+}
+
+#check-icon{
+Position: absolute;
+Right: 30%;
+Top: 4%;
+}
+
+#x-icon{
+Position: absolute;
+Right: 20%;
+Top: 4%;
+}
+
+#mic-icon{
+Position: absolute;
+Right: 10%;
+Top: 4%;
+}
+
+#button1 {
+  background-color: #FFC03A; /* Yellow */
+  border: gold;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  Margin-top:  20px;
+  Margin-left: 5%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFC03A;
+  color: black;
+  text-align: center;
+}
+
+#button2 {
+  background-color: #FFC03A; /* Yellow */
+  border: gold;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  position: absolute;
+  Margin-top:  20px;
+  Margin-left: 75%;
+}
